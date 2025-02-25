@@ -38,6 +38,4 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 ## License
 This project is licensed under the MIT License.
 
----
-For any questions, reach out to **siva56586** on GitHub.
 
