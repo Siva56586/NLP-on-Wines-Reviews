@@ -1,5 +1,4 @@
 # NLP-on-Wines-Reviews
-# Wine Reviews Analysis
 
 This project analyzes wine reviews using Natural Language Processing (NLP) techniques. It explores various aspects such as sentiment analysis, text preprocessing, and data visualization. The goal is to derive meaningful insights from wine reviews, helping consumers and businesses understand trends and preferences.
 
