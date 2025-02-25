@@ -32,10 +32,4 @@ The dataset used in this project is sourced from **Wine Reviews**, containing mu
 - Modify parameters as needed to test different NLP techniques.
 - Interpret visualizations to gain insights from the wine reviews dataset.
 
-## Contributing
-Contributions are welcome! Feel free to submit issues or pull requests.
-
-## License
-This project is licensed under the MIT License.
-
 
