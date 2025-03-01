@@ -23,31 +23,26 @@ The dataset used in this project, `winemag-data-130k-v2.csv`, contains over 130,
 
 ## Technologies Used
 This project is implemented using the following technologies:
+- **Google Colab**: For running the notebook in a cloud environment.
 - **Python**: The primary programming language for analysis.
-- **Jupyter Notebook**: For interactive data exploration.
 - **Pandas & NumPy**: Data manipulation and analysis.
 - **Matplotlib & Seaborn**: Data visualization.
 - **Scikit-learn (if applicable)**: For potential clustering or predictive modeling.
 
-## Installation & Setup
-To set up the environment, install the required dependencies using pip:
-```bash
-pip install numpy pandas matplotlib seaborn
-```
-Clone the repository and navigate to the project folder:
-```bash
-git clone <repository_url>
-cd wine-reviews-analysis
-```
-Ensure the dataset `winemag-data-130k-v2.csv` is placed in the correct directory before running the Jupyter Notebook.
-
-## Usage
-1. Open Jupyter Notebook:
-```bash
-jupyter notebook
-```
-2. Load the notebook and run the cells step by step to process and analyze the dataset.
-3. Visualizations and insights will be displayed within the notebook.
+## How to Run in Google Colab
+1. Open Google Colab: [Google Colab](https://colab.research.google.com/)
+2. Upload the dataset `winemag-data-130k-v2.csv` to your Google Drive.
+3. Mount Google Drive in the Colab notebook using:
+   ```python
+   from google.colab import drive
+   drive.mount('/content/drive')
+   ```
+4. Load the dataset from Google Drive:
+   ```python
+   import pandas as pd
+   df = pd.read_csv('/content/drive/My Drive/winemag-data-130k-v2.csv')
+   ```
+5. Run all cells in the notebook to process and analyze the dataset.
 
 ## Expected Insights
 - Price vs. quality relationships.
